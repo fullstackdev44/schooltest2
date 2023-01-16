@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'seefatte_wp_school' );
+define( 'DB_NAME', '' );
 
 /** MySQL database username */
-define( 'DB_USER', 'seefatte_admi' );
+define( 'DB_USER', '' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '9fK#tHk94Of&EkkA' );
+define( 'DB_PASSWORD', '' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost:3306' );
@@ -61,7 +61,7 @@ define('NONCE_SALT', '/9*H07O4T&07A0N::@/RtTP)R5Qc3d8SWzCv2:#fmoO604P9LY0)imbbHs
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'OnY83jkOiZ_';
+$table_prefix = 'wp_';
 
 
 define('WP_ALLOW_MULTISITE', true);
